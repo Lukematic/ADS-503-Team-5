@@ -21,7 +21,7 @@ df8 <- read_excel('/Users/yhjnthn/Documents/USD_MS-ADS/ADS503/Database-on-educat
 df9 <- read_excel('/Users/yhjnthn/Documents/USD_MS-ADS/ADS503/Database-on-education-for-children-with-disabilities.xlsx', 9)
 head(df1)
 ```
-Column names for upper & lower limits for total, Children without functional disabilities, and Children with functional disabilities
+Column names for upper & lower limits for Total, Children without functional disabilities, and Children with functional disabilities
 do not have the correct names. The names of these columns are assigned by following:
 ```{r column assignment}
 colnames(df1)[9:10] <- c("Total_Upper_Limit", "Total_Lower_Limit")
