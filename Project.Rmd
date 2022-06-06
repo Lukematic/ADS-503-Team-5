@@ -1,0 +1,55 @@
+---
+title: "ADS503_Team3"
+author: "Jonathan Yoon"
+date: "6/5/2022"
+output: html_document
+---
+## 1. Importing data as data frames
+
+There are 9 different worksheets in the original data.
+Each worksheet is imported as separate data frames.
+```{r import}
+install.packages("readxl")
+library(readxl)
+df1 <- read_excel('/Users/yhjnthn/Documents/USD_MS-ADS/ADS503/Database-on-education-for-children-with-disabilities.xlsx', 1)
+df2 <- read_excel('/Users/yhjnthn/Documents/USD_MS-ADS/ADS503/Database-on-education-for-children-with-disabilities.xlsx', 2)
+df3 <- read_excel('/Users/yhjnthn/Documents/USD_MS-ADS/ADS503/Database-on-education-for-children-with-disabilities.xlsx', 3)
+df4 <- read_excel('/Users/yhjnthn/Documents/USD_MS-ADS/ADS503/Database-on-education-for-children-with-disabilities.xlsx', 4)
+df5 <- read_excel('/Users/yhjnthn/Documents/USD_MS-ADS/ADS503/Database-on-education-for-children-with-disabilities.xlsx', 5)
+df6 <- read_excel('/Users/yhjnthn/Documents/USD_MS-ADS/ADS503/Database-on-education-for-children-with-disabilities.xlsx', 6)
+df8 <- read_excel('/Users/yhjnthn/Documents/USD_MS-ADS/ADS503/Database-on-education-for-children-with-disabilities.xlsx', 8)
+df9 <- read_excel('/Users/yhjnthn/Documents/USD_MS-ADS/ADS503/Database-on-education-for-children-with-disabilities.xlsx', 9)
+head(df1)
+```
+Column names for upper & lower limits for total, Children without functional disabilities, and Children with functional disabilities
+do not have the correct names. The names of these columns are assigned by following:
+```{r column assignment}
+colnames(df1)[9:10] <- c("Total_Upper_Limit", "Total_Lower_Limit")
+colnames(df1)[12:13] <- c("Children_without_functional_difficulties_upper_limit", "Children_without_functional_difficulties_lower_limit")
+colnames(df1)[15:16] <- c("Children_with_functional_difficulties_upper_limit", "Children_with_functional_difficulties_lower_limit")
+colnames(df2)[9:10] <- c("Total_Upper_Limit", "Total_Lower_Limit")
+colnames(df2)[12:13] <- c("Children_without_functional_difficulties_upper_limit", "Children_without_functional_difficulties_lower_limit")
+colnames(df2)[15:16] <- c("Children_with_functional_difficulties_upper_limit", "Children_with_functional_difficulties_lower_limit")
+colnames(df3)[9:10] <- c("Total_Upper_Limit", "Total_Lower_Limit")
+colnames(df3)[12:13] <- c("Children_without_functional_difficulties_upper_limit", "Children_without_functional_difficulties_lower_limit")
+colnames(df3)[15:16] <- c("Children_with_functional_difficulties_upper_limit", "Children_with_functional_difficulties_lower_limit")
+colnames(df4)[9:10] <- c("Total_Upper_Limit", "Total_Lower_Limit")
+colnames(df4)[12:13] <- c("Children_without_functional_difficulties_upper_limit", "Children_without_functional_difficulties_lower_limit")
+colnames(df4)[15:16] <- c("Children_with_functional_difficulties_upper_limit", "Children_with_functional_difficulties_lower_limit")
+colnames(df5)[9:10] <- c("Total_Upper_Limit", "Total_Lower_Limit")
+colnames(df5)[12:13] <- c("Children_without_functional_difficulties_upper_limit", "Children_without_functional_difficulties_lower_limit")
+colnames(df5)[15:16] <- c("Children_with_functional_difficulties_upper_limit", "Children_with_functional_difficulties_lower_limit")
+colnames(df6)[9:10] <- c("Total_Upper_Limit", "Total_Lower_Limit")
+colnames(df6)[12:13] <- c("Children_without_functional_difficulties_upper_limit", "Children_without_functional_difficulties_lower_limit")
+colnames(df6)[15:16] <- c("Children_with_functional_difficulties_upper_limit", "Children_with_functional_difficulties_lower_limit")
+colnames(df7)[9:10] <- c("Total_Upper_Limit", "Total_Lower_Limit")
+colnames(df7)[12:13] <- c("Children_without_functional_difficulties_upper_limit", "Children_without_functional_difficulties_lower_limit")
+colnames(df7)[15:16] <- c("Children_with_functional_difficulties_upper_limit", "Children_with_functional_difficulties_lower_limit")
+colnames(df8)[9:10] <- c("Total_Upper_Limit", "Total_Lower_Limit")
+colnames(df8)[12:13] <- c("Children_without_functional_difficulties_upper_limit", "Children_without_functional_difficulties_lower_limit")
+colnames(df8)[15:16] <- c("Children_with_functional_difficulties_upper_limit", "Children_with_functional_difficulties_lower_limit")
+colnames(df9)[9:10] <- c("Total_Upper_Limit", "Total_Lower_Limit")
+colnames(df9)[12:13] <- c("Children_without_functional_difficulties_upper_limit", "Children_without_functional_difficulties_lower_limit")
+colnames(df9)[15:16] <- c("Children_with_functional_difficulties_upper_limit", "Children_with_functional_difficulties_lower_limit")
+
+```
