@@ -1,4 +1,4 @@
-﻿Countries and areas,ISO Code,Region,Sub-region,Development regions,Indicator,Category,Total,total_upper_limit,total_lower_limit,Children without functional difficulties,cwf_upper_limit,cwf_lower_limit,Children with functional difficulties,wfd_upper_limit,wfd_lower_limit,Data source,Time period
+﻿Countries and areas,ISO Code,Region,Sub-region,Development regions,Indicator,Category_4,Total_4,total_upper_limit_4,total_lower_limit_4,Children without functional difficulties_4,cwf_upper_limit_4,cwf_lower_limit_4,Children with functional difficulties_4,wfd_upper_limit_4,wfd_lower_limit_4,Data source,Time period
 Bangladesh,BGD,SA,SA,Least Developed,OOS Primary,Total,13.4,13.9,12.9,12.5,13,11.9,23,25.3,20.7,MICS6,2019
 Bangladesh,BGD,SA,SA,Least Developed,OOS Primary,Male,15.4,16.2,14.6,14.3,15.1,13.5,26.2,29.5,23,MICS6,2019
 Bangladesh,BGD,SA,SA,Least Developed,OOS Primary,Female,11.3,12,10.6,10.6,11.3,9.9,19.2,22.4,16,MICS6,2019
