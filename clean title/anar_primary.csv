@@ -1,0 +1,161 @@
+Countries and areas,ISO Code,Region,Sub-region,Development regions,Indicator_1,Category_1,Total_1,total_upper_limit_1,total_lower_limit_1,Children without functional difficulties_1,cwf_upper_limit_1,cwf_lower_limit_1,Children with functional difficulties_1,cwd_upper_limits_1,cwd_lower_limit_1,Data source,Time period
+Bangladesh,BGD,SA,SA,Least Developed,ANAR Primary,Total,82.7,83.3,82.1,83.7,84.3,83.1,72.1,74.6,69.6,MICS6,2019
+Bangladesh,BGD,SA,SA,Least Developed,ANAR Primary,Male,80.1,81,79.2,81.4,82.3,80.5,68.1,71.5,64.6,MICS6,2019
+Bangladesh,BGD,SA,SA,Least Developed,ANAR Primary,Female,85.3,86.1,84.5,86,86.9,85.2,76.8,80.2,73.3,MICS6,2019
+Bangladesh,BGD,SA,SA,Least Developed,ANAR Primary,Urban,84.3,85.6,82.9,84.9,86.3,83.6,76.1,81.8,70.3,MICS6,2019
+Bangladesh,BGD,SA,SA,Least Developed,ANAR Primary,Rural,82.2,82.9,81.5,83.3,84,82.7,71.2,73.9,68.5,MICS6,2019
+Belarus,BLR,ECA,EECA,More Developed,ANAR Primary,Total,92.3,93.9,90.7,93,94.6,91.5,77.9,89.5,66.3,MICS6,2019
+Belarus,BLR,ECA,EECA,More Developed,ANAR Primary,Male,91.5,93.8,89.2,93.2,95.3,91,,,,MICS6,2019
+Belarus,BLR,ECA,EECA,More Developed,ANAR Primary,Female,93.2,95.4,90.9,92.9,95.2,90.6,,,,MICS6,2019
+Belarus,BLR,ECA,EECA,More Developed,ANAR Primary,Urban,91.3,93.3,89.3,91.7,93.7,89.7,,,,MICS6,2019
+Belarus,BLR,ECA,EECA,More Developed,ANAR Primary,Rural,95.9,98.2,93.6,97.7,99.5,95.9,,,,MICS6,2019
+Central African Republic,CAF,SSA,WCA,Least Developed,ANAR Primary,Total,73.2,74.7,71.6,74,75.9,72.2,71.3,74.1,68.5,MICS6,2018-2019
+Central African Republic,CAF,SSA,WCA,Least Developed,ANAR Primary,Male,76.4,78.5,74.4,77.6,80,75.2,74.1,77.9,70.3,MICS6,2018-2019
+Central African Republic,CAF,SSA,WCA,Least Developed,ANAR Primary,Female,69.6,71.9,67.3,70.2,73,67.4,68.2,72.2,64.1,MICS6,2018-2019
+Central African Republic,CAF,SSA,WCA,Least Developed,ANAR Primary,Urban,86.7,88.6,84.9,86.8,89,84.5,86.7,90.1,83.2,MICS6,2018-2019
+Central African Republic,CAF,SSA,WCA,Least Developed,ANAR Primary,Rural,65.8,68,63.7,66.8,69.4,64.3,63.9,67.6,60.2,MICS6,2018-2019
+Chad,TCD,SSA,WCA,Least Developed,ANAR Primary,Total,43.4,44.5,42.3,45.4,46.8,44.1,38.3,40.3,36.4,MICS6,2019
+Chad,TCD,SSA,WCA,Least Developed,ANAR Primary,Male,45.7,47.3,44.1,48.2,50.1,46.3,39.5,42.2,36.7,MICS6,2019
+Chad,TCD,SSA,WCA,Least Developed,ANAR Primary,Female,41.1,42.7,39.6,42.7,44.6,40.8,37.2,40,34.4,MICS6,2019
+Chad,TCD,SSA,WCA,Least Developed,ANAR Primary,Urban,64.9,67.4,62.5,67.5,70.4,64.6,58.2,62.8,53.6,MICS6,2019
+Chad,TCD,SSA,WCA,Least Developed,ANAR Primary,Rural,38.9,40.1,37.7,40.7,42.2,39.3,34.3,36.5,32.2,MICS6,2019
+Democratic Republic of the Congo,COD,SSA,WCA,Least Developed,ANAR Primary,Total,77.3,78.3,76.3,78.1,79.2,77,74.1,76.2,71.9,MICS6,2017-2018
+Democratic Republic of the Congo,COD,SSA,WCA,Least Developed,ANAR Primary,Male,78.8,80.2,77.5,79.8,81.3,78.3,75.1,78.1,72.1,MICS6,2017-2018
+Democratic Republic of the Congo,COD,SSA,WCA,Least Developed,ANAR Primary,Female,75.7,77.1,74.3,76.4,78,74.7,73,76.1,69.9,MICS6,2017-2018
+Democratic Republic of the Congo,COD,SSA,WCA,Least Developed,ANAR Primary,Urban,86,87.5,84.5,86.2,87.9,84.5,85.3,88.6,81.9,MICS6,2017-2018
+Democratic Republic of the Congo,COD,SSA,WCA,Least Developed,ANAR Primary,Rural,70.7,72,69.4,71.8,73.2,70.3,66.8,69.5,64.1,MICS6,2017-2018
+Gambia,GMB,SSA,WCA,Least Developed,ANAR Primary,Total,80.5,81.9,79,80.6,82.2,79.1,79.1,84.1,74.1,MICS6,2018
+Gambia,GMB,SSA,WCA,Least Developed,ANAR Primary,Male,81.2,83.4,78.9,81.7,84,79.4,77.3,84.8,69.9,MICS6,2018
+Gambia,GMB,SSA,WCA,Least Developed,ANAR Primary,Female,79.8,81.8,77.8,79.7,81.8,77.6,81.3,88,74.7,MICS6,2018
+Gambia,GMB,SSA,WCA,Least Developed,ANAR Primary,Urban,86.1,88,84.1,86.8,88.8,84.8,80.8,87.7,73.9,MICS6,2018
+Gambia,GMB,SSA,WCA,Least Developed,ANAR Primary,Rural,70.8,73.1,68.5,70.4,72.8,68,75.1,82.6,67.6,MICS6,2018
+Ghana,GHA,SSA,WCA,Less Developed,ANAR Primary,Total,81.6,82.7,80.5,81.9,83.2,80.6,80.5,83,77.9,MICS6,2017-2018
+Ghana,GHA,SSA,WCA,Less Developed,ANAR Primary,Male,79.7,81.3,78,80.1,82,78.2,78.1,81.8,74.4,MICS6,2017-2018
+Ghana,GHA,SSA,WCA,Less Developed,ANAR Primary,Female,83.7,85.2,82.1,83.8,85.5,82,83.3,86.8,79.8,MICS6,2017-2018
+Ghana,GHA,SSA,WCA,Less Developed,ANAR Primary,Urban,86.5,88,84.9,86.6,88.3,84.9,85.9,89.6,82.2,MICS6,2017-2018
+Ghana,GHA,SSA,WCA,Less Developed,ANAR Primary,Rural,78,79.6,76.4,78.3,80.2,76.4,77,80.5,73.6,MICS6,2017-2018
+Guinea-Bissau,GNB,SSA,WCA,Least Developed,ANAR Primary,Total,68.4,70.1,66.8,69.5,71.3,67.7,63.2,67.8,58.6,MICS6,2018-2019
+Guinea-Bissau,GNB,SSA,WCA,Least Developed,ANAR Primary,Male,66.2,68.7,63.8,67.5,70.1,64.8,60.7,67.5,54,MICS6,2018-2019
+Guinea-Bissau,GNB,SSA,WCA,Least Developed,ANAR Primary,Female,70.5,72.8,68.2,71.4,73.8,69,65.8,72,59.6,MICS6,2018-2019
+Guinea-Bissau,GNB,SSA,WCA,Least Developed,ANAR Primary,Urban,84.2,86.6,81.8,84.2,86.8,81.6,84.4,90.6,78.3,MICS6,2018-2019
+Guinea-Bissau,GNB,SSA,WCA,Least Developed,ANAR Primary,Rural,60.2,62.3,58.1,62.1,64.4,59.9,50.4,56.2,44.7,MICS6,2018-2019
+Guyana,GUY,LAC,LAC,Less Developed,ANAR Primary,Total,96.6,97.5,95.7,97.3,98.1,96.4,93.6,96.6,90.7,MICS6,2019-2020
+Guyana,GUY,LAC,LAC,Less Developed,ANAR Primary,Male,96.6,97.9,95.3,97.7,98.9,96.5,91.9,96.6,87.2,MICS6,2019-2020
+Guyana,GUY,LAC,LAC,Less Developed,ANAR Primary,Female,96.6,97.9,95.4,96.9,98.2,95.5,95.5,99.1,91.9,MICS6,2019-2020
+Guyana,GUY,LAC,LAC,Less Developed,ANAR Primary,Urban,96.8,98.4,95.2,97.5,99.1,95.9,94.5,99.4,89.7,MICS6,2019-2020
+Guyana,GUY,LAC,LAC,Less Developed,ANAR Primary,Rural,96.6,97.6,95.5,97.2,98.3,96.1,93.2,96.9,89.4,MICS6,2019-2020
+Iraq,IRQ,MENA,MENA,Less Developed,ANAR Primary,Total,77.5,78.4,76.5,78.8,79.9,77.7,72.4,74.6,70.2,MICS6,2018
+Iraq,IRQ,MENA,MENA,Less Developed,ANAR Primary,Male,79.7,81,78.4,82.7,84,81.3,70.7,73.6,67.8,MICS6,2018
+Iraq,IRQ,MENA,MENA,Less Developed,ANAR Primary,Female,75.1,76.6,73.7,75.1,76.7,73.6,75,78.3,71.8,MICS6,2018
+Iraq,IRQ,MENA,MENA,Less Developed,ANAR Primary,Urban,80.3,81.4,79.2,81.5,82.7,80.2,76.2,78.7,73.6,MICS6,2018
+Iraq,IRQ,MENA,MENA,Less Developed,ANAR Primary,Rural,71.8,73.6,70,73.7,75.7,71.7,63.6,67.7,59.4,MICS6,2018
+Kiribati,KIR,EAP,EAP,Least Developed,ANAR Primary,Total,97.4,98.3,96.5,98.2,99.1,97.3,94.8,97.4,92.1,MICS6,2018-2019
+Kiribati,KIR,EAP,EAP,Least Developed,ANAR Primary,Male,97.2,98.5,95.8,97.5,98.9,96.1,96,99.3,92.7,MICS6,2018-2019
+Kiribati,KIR,EAP,EAP,Least Developed,ANAR Primary,Female,97.6,98.9,96.4,98.8,99.9,97.8,93.5,97.6,89.3,MICS6,2018-2019
+Kiribati,KIR,EAP,EAP,Least Developed,ANAR Primary,Urban,96.8,98.5,95.1,97.8,99.4,96.2,93.5,98.5,88.4,MICS6,2018-2019
+Kiribati,KIR,EAP,EAP,Least Developed,ANAR Primary,Rural,98,99,97,98.5,99.5,97.5,96.3,99.1,93.5,MICS6,2018-2019
+Kosovo,,ECA,EECA,,ANAR Primary,Total,96.2,97.5,94.9,96.2,97.6,94.9,95.5,100.6,90.4,MICS6,2019-20
+Kosovo,,ECA,EECA,,ANAR Primary,Male,95.3,97.3,93.3,95.5,97.5,93.4,,,,MICS6,2019-20
+Kosovo,,ECA,EECA,,ANAR Primary,Female,97.1,98.7,95.4,97.1,98.8,95.4,,,,MICS6,2019-20
+Kosovo,,ECA,EECA,,ANAR Primary,Urban,93.8,96.2,91.5,93.7,96.2,91.2,,,,MICS6,2019-20
+Kosovo,,ECA,EECA,,ANAR Primary,Rural,98,99.3,96.6,98.2,99.5,96.8,,,,MICS6,2019-20
+Kyrgyzstan,KGZ,ECA,EECA,Less Developed,ANAR Primary,Total,95.9,97,94.9,95.8,96.9,94.7,97.3,100.4,94.3,MICS6,2018
+Kyrgyzstan,KGZ,ECA,EECA,Less Developed,ANAR Primary,Male,96.4,97.8,95,96.2,97.7,94.7,98.4,101.5,95.3,MICS6,2018
+Kyrgyzstan,KGZ,ECA,EECA,Less Developed,ANAR Primary,Female,95.4,97,93.8,95.4,97.1,93.8,,,,MICS6,2018
+Kyrgyzstan,KGZ,ECA,EECA,Less Developed,ANAR Primary,Urban,97.1,98.5,95.6,97.2,98.6,95.7,,,,MICS6,2018
+Kyrgyzstan,KGZ,ECA,EECA,Less Developed,ANAR Primary,Rural,95.4,96.9,94,95.2,96.7,93.6,98,101.4,94.6,MICS6,2018
+Lesotho,LSO,SSA,ESA,Least Developed,ANAR Primary,Total,97.2,97.8,96.6,97.3,97.9,96.6,96.5,98.9,94,MICS6,2018
+Lesotho,LSO,SSA,ESA,Least Developed,ANAR Primary,Male,96.6,97.6,95.6,96.7,97.7,95.7,95.8,99.3,92.3,MICS6,2018
+Lesotho,LSO,SSA,ESA,Least Developed,ANAR Primary,Female,97.8,98.6,97,97.8,98.6,97,97.4,100.6,94.2,MICS6,2018
+Lesotho,LSO,SSA,ESA,Least Developed,ANAR Primary,Urban,97.9,98.9,96.8,97.9,99,96.8,97.3,101.2,93.5,MICS6,2018
+Lesotho,LSO,SSA,ESA,Least Developed,ANAR Primary,Rural,96.9,97.6,96.1,96.9,97.7,96.2,96.1,99.2,92.9,MICS6,2018
+Madagascar,MDG,SSA,ESA,Least Developed,ANAR Primary,Total,66.8,68.2,65.4,67.4,68.9,66,63,66.7,59.2,MICS6,2018
+Madagascar,MDG,SSA,ESA,Least Developed,ANAR Primary,Male,62.7,64.7,60.7,62.8,64.9,60.6,62.3,67.5,57,MICS6,2018
+Madagascar,MDG,SSA,ESA,Least Developed,ANAR Primary,Female,70.8,72.7,68.9,71.9,73.9,70,63.7,69.1,58.2,MICS6,2018
+Madagascar,MDG,SSA,ESA,Least Developed,ANAR Primary,Urban,81.3,83.6,79.1,83.1,85.4,80.7,71.2,78.2,64.3,MICS6,2018
+Madagascar,MDG,SSA,ESA,Least Developed,ANAR Primary,Rural,63.3,64.9,61.7,63.7,65.4,61.9,60.8,65.3,56.4,MICS6,2018
+Mongolia,MNG,EAP,EAP,Less Developed,ANAR Primary,Total,93.3,94.1,92.5,93.7,94.5,92.8,86.3,91.1,81.5,MICS6,2018
+Mongolia,MNG,EAP,EAP,Less Developed,ANAR Primary,Male,93.3,94.5,92.1,93.8,94.9,92.6,84.7,91.8,77.6,MICS6,2018
+Mongolia,MNG,EAP,EAP,Less Developed,ANAR Primary,Female,93.3,94.5,92.1,93.6,94.8,92.4,87.8,94.3,81.2,MICS6,2018
+Mongolia,MNG,EAP,EAP,Less Developed,ANAR Primary,Urban,94.7,95.7,93.7,95,96,94,88.3,94.6,81.9,MICS6,2018
+Mongolia,MNG,EAP,EAP,Less Developed,ANAR Primary,Rural,90.6,92,89.1,91,92.5,89.6,83,90.4,75.5,MICS6,2018
+Nepal,NPL,SA,SA,Least Developed,ANAR Primary,Total,75.3,76.8,73.9,75.7,77.3,74.1,73.3,77.2,69.4,MICS6,2019
+Nepal,NPL,SA,SA,Least Developed,ANAR Primary,Male,74.5,76.6,72.4,74.9,77.1,72.6,72.5,77.8,67.3,MICS6,2019
+Nepal,NPL,SA,SA,Least Developed,ANAR Primary,Female,76.2,78.3,74.2,76.6,78.8,74.3,74.2,79.9,68.4,MICS6,2019
+Nepal,NPL,SA,SA,Least Developed,ANAR Primary,Urban,75.6,77.6,73.7,76.3,78.3,74.2,71.7,77,66.4,MICS6,2019
+Nepal,NPL,SA,SA,Least Developed,ANAR Primary,Rural,74.8,77.1,72.6,74.7,77.2,72.2,75.8,81.5,70.2,MICS6,2019
+North Macedonia,MKD,ECA,EECA,More Developed,ANAR Primary,Total,97,98.3,95.7,97.4,98.7,96.1,93.8,99.4,88.2,MICS6,2018-2019
+North Macedonia,MKD,ECA,EECA,More Developed,ANAR Primary,Male,98.3,99.7,96.8,98.9,100.2,97.7,,,,MICS6,2018-2019
+North Macedonia,MKD,ECA,EECA,More Developed,ANAR Primary,Female,95.8,98,93.7,96.1,98.3,93.9,,,,MICS6,2018-2019
+North Macedonia,MKD,ECA,EECA,More Developed,ANAR Primary,Urban,96,98.2,93.9,96.4,98.5,94.3,,,,MICS6,2018-2019
+North Macedonia,MKD,ECA,EECA,More Developed,ANAR Primary,Rural,98.7,99.9,97.4,99.3,100.3,98.3,,,,MICS6,2018-2019
+State of Palestine,PSE,MENA,MENA,Less Developed,ANAR Primary,Total,96.9,97.7,96.1,97.8,98.5,97,92.4,95.5,89.2,MICS6,2019-2020
+State of Palestine,PSE,MENA,MENA,Less Developed,ANAR Primary,Male,96.1,97.3,94.8,96.8,98,95.5,93,97,89.1,MICS6,2019-2020
+State of Palestine,PSE,MENA,MENA,Less Developed,ANAR Primary,Female,97.7,98.7,96.7,98.7,99.5,97.9,91.5,96.6,86.4,MICS6,2019-2020
+State of Palestine,PSE,MENA,MENA,Less Developed,ANAR Primary,Urban,97,98,95.9,97.9,98.8,97,92.5,96.5,88.6,MICS6,2019-2020
+State of Palestine,PSE,MENA,MENA,Less Developed,ANAR Primary,Rural,96.5,97.9,95.2,97.2,98.5,95.9,91.7,97,86.4,MICS6,2019-2020
+Pakistan (Punjab),,SA,SA,Less Developed,ANAR Primary,Total,64.8,65.6,64.1,65.7,66.5,64.8,61.1,62.9,59.3,MICS6,2017-2018
+Pakistan (Punjab),,SA,SA,Less Developed,ANAR Primary,Male,65.3,66.4,64.2,66.1,67.3,64.9,62.2,64.6,59.7,MICS6,2017-2018
+Pakistan (Punjab),,SA,SA,Less Developed,ANAR Primary,Female,64.3,65.4,63.2,65.3,66.5,64.1,59.8,62.4,57.1,MICS6,2017-2018
+Pakistan (Punjab),,SA,SA,Less Developed,ANAR Primary,Urban,70.7,72.1,69.3,70.8,72.4,69.3,70.3,73.5,67,MICS6,2017-2018
+Pakistan (Punjab),,SA,SA,Less Developed,ANAR Primary,Rural,61.9,62.8,61,63.1,64.1,62.1,56.3,58.5,54.1,MICS6,2017-2018
+Samoa,WSM,EAP,EAP,Less Developed,ANAR Primary,Total,89.6,91.4,87.9,88.7,90.8,86.7,92.5,95.8,89.3,MICS6,2019-2020
+Samoa,WSM,EAP,EAP,Less Developed,ANAR Primary,Male,89.9,92.3,87.4,88,91.1,85,94.9,98.5,91.3,MICS6,2019-2020
+Samoa,WSM,EAP,EAP,Less Developed,ANAR Primary,Female,89.4,92,86.8,89.5,92.4,86.6,89.1,95,83.1,MICS6,2019-2020
+Samoa,WSM,EAP,EAP,Less Developed,ANAR Primary,Urban,91.7,94.8,88.5,93,96.1,89.8,,,,MICS6,2019-2020
+Samoa,WSM,EAP,EAP,Less Developed,ANAR Primary,Rural,89.3,91.4,87.2,87.9,90.4,85.3,93.5,96.8,90.1,MICS6,2019-2020
+Sao Tome and Principe,STP,SSA,WCA,Least Developed,ANAR Primary,Total,88.4,90.3,86.5,89.5,91.5,87.4,84.2,89,79.4,MICS7,2019
+Sao Tome and Principe,STP,SSA,WCA,Least Developed,ANAR Primary,Male,88,90.8,85.3,88.6,91.6,85.5,85.8,92.2,79.4,MICS8,2019
+Sao Tome and Principe,STP,SSA,WCA,Least Developed,ANAR Primary,Female,88.8,91.5,86.1,90.3,93.2,87.5,82.5,89.8,75.2,MICS9,2019
+Sao Tome and Principe,STP,SSA,WCA,Least Developed,ANAR Primary,Urban,90.7,93,88.4,91.8,94.2,89.4,85.5,92,78.9,MICS10,2019
+Sao Tome and Principe,STP,SSA,WCA,Least Developed,ANAR Primary,Rural,83.3,86.8,79.9,83.6,87.6,79.7,82.5,89.6,75.4,MICS11,2019
+Sierra Leone,SLE,SSA,WCA,Least Developed,ANAR Primary,Total,82.2,83.2,81.2,82.4,83.6,81.3,81.6,83.6,79.5,MICS6,2017
+Sierra Leone,SLE,SSA,WCA,Least Developed,ANAR Primary,Male,80.2,81.7,78.8,80.6,82.3,78.9,79.2,82.1,76.2,MICS6,2017
+Sierra Leone,SLE,SSA,WCA,Least Developed,ANAR Primary,Female,84.3,85.6,82.9,84.3,85.8,82.8,84.1,86.9,81.3,MICS6,2017
+Sierra Leone,SLE,SSA,WCA,Least Developed,ANAR Primary,Urban,91.6,92.9,90.3,92.2,93.6,90.8,89.3,92.3,86.3,MICS6,2017
+Sierra Leone,SLE,SSA,WCA,Least Developed,ANAR Primary,Rural,75.9,77.2,74.5,75.5,77.1,73.9,77,79.7,74.4,MICS6,2017
+Pakistan (Sindh),,SA,SA,Less Developed,ANAR Primary,Total,36.2,37.4,35,36.5,37.8,35.2,34.9,37.7,32.1,MICS6,2018-2019
+Pakistan (Sindh),,SA,SA,Less Developed,ANAR Primary,Male,37.9,39.5,36.2,38,39.7,36.2,37.4,41.3,33.5,MICS6,2018-2019
+Pakistan (Sindh),,SA,SA,Less Developed,ANAR Primary,Female,34.4,36.1,32.7,34.9,36.7,33,32.1,36.1,28.1,MICS6,2018-2019
+Pakistan (Sindh),,SA,SA,Less Developed,ANAR Primary,Urban,48.3,50,46.5,48.8,50.7,46.8,46.2,50.2,42.2,MICS6,2018-2019
+Pakistan (Sindh),,SA,SA,Less Developed,ANAR Primary,Rural,25.2,26.7,23.8,25.9,27.5,24.3,21.2,24.7,17.7,MICS6,2018-2019
+Suriname,SUR,LAC,LAC,Less Developed,ANAR Primary,Total,94.3,95.3,93.2,94.5,95.6,93.4,92.5,95.7,89.3,MICS6,2018
+Suriname,SUR,LAC,LAC,Less Developed,ANAR Primary,Male,93.3,95,91.7,94,95.7,92.3,89.2,94.4,84,MICS6,2018
+Suriname,SUR,LAC,LAC,Less Developed,ANAR Primary,Female,95.3,96.6,93.9,95.1,96.6,93.7,96.4,99.7,93,MICS6,2018
+Suriname,SUR,LAC,LAC,Less Developed,ANAR Primary,Urban,95.2,96.5,93.9,95.5,96.8,94.1,92.7,97.1,88.3,MICS6,2018
+Suriname,SUR,LAC,LAC,Less Developed,ANAR Primary,Rural,92.4,94.2,90.6,92.5,94.4,90.6,92.1,96.9,87.3,MICS6,2018
+Turks and Caicos Islands,TCA,LAC,LAC,Not Classified,ANAR Primary,Total,97.4,99.5,95.4,99.3,100.4,98.2,,,,MICS6,2019-2020
+Turks and Caicos Islands,TCA,LAC,LAC,Not Classified,ANAR Primary,Male,96.1,99.5,92.7,99.9,100.4,99.4,,,,MICS6,2019-2020
+Turks and Caicos Islands,TCA,LAC,LAC,Not Classified,ANAR Primary,Female,98.8,100.9,96.6,98.7,101.1,96.4,,,,MICS6,2019-2020
+Turks and Caicos Islands,TCA,LAC,LAC,Not Classified,ANAR Primary,Urban,97.3,99.7,95,99.3,100.6,98.1,,,,MICS6,2019-2020
+Turks and Caicos Islands,TCA,LAC,LAC,Not Classified,ANAR Primary,Rural,99.3,101.8,96.9,,,,,,,MICS6,2019-2020
+Togo,TGO,SSA,WCA,Least Developed,ANAR Primary,Total,92.8,93.8,91.8,92.4,93.6,91.3,94.2,96.3,92.1,MICS6,2017
+Togo,TGO,SSA,WCA,Least Developed,ANAR Primary,Male,93.9,95.2,92.5,93.7,95.2,92.2,94.5,97.4,91.6,MICS6,2017
+Togo,TGO,SSA,WCA,Least Developed,ANAR Primary,Female,91.7,93.2,90.1,91,92.8,89.3,93.9,97,90.9,MICS6,2017
+Togo,TGO,SSA,WCA,Least Developed,ANAR Primary,Urban,97.1,98.3,96,97,98.3,95.7,97.5,99.9,95.1,MICS6,2017
+Togo,TGO,SSA,WCA,Least Developed,ANAR Primary,Rural,90.4,91.8,89,90,91.6,88.4,92.2,95.2,89.2,MICS6,2017
+Tonga,TON,EAP,EAP,Less Developed,ANAR Primary,Total,97,98.2,95.7,97,98.3,95.7,96.5,101.1,92,MICS6,2019
+Tonga,TON,EAP,EAP,Less Developed,ANAR Primary,Male,96.9,98.6,95.2,97,98.7,95.3,,,,MICS6,2019
+Tonga,TON,EAP,EAP,Less Developed,ANAR Primary,Female,97.1,98.9,95.3,97,98.9,95.1,,,,MICS6,2019
+Tonga,TON,EAP,EAP,Less Developed,ANAR Primary,Urban,97.7,99.9,95.5,97.6,99.9,95.3,,,,MICS6,2019
+Tonga,TON,EAP,EAP,Less Developed,ANAR Primary,Rural,96.8,98.2,95.3,96.8,98.3,95.3,96.3,101.2,91.3,MICS6,2019
+Tunisia,TUN,MENA,MENA,Less Developed,ANAR Primary,Total,94.4,95.4,93.5,94.3,95.4,93.2,94.9,96.8,93,MICS6,2018
+Tunisia,TUN,MENA,MENA,Less Developed,ANAR Primary,Male,95.1,96.3,93.8,95,96.4,93.6,95.3,97.8,92.8,MICS6,2018
+Tunisia,TUN,MENA,MENA,Less Developed,ANAR Primary,Female,93.7,95.2,92.3,93.5,95.2,91.9,94.5,97.4,91.5,MICS6,2018
+Tunisia,TUN,MENA,MENA,Less Developed,ANAR Primary,Urban,95.6,96.6,94.5,95.4,96.6,94.2,96.4,98.5,94.3,MICS6,2018
+Tunisia,TUN,MENA,MENA,Less Developed,ANAR Primary,Rural,92,94,90.1,91.8,94.1,89.5,92.6,96.2,88.9,MICS6,2018
+Turkmenistan,TKM,ECA,EECA,Less Developed,ANAR Primary,Total,98.7,99.3,98.1,98.8,99.4,98.2,,,,MICS6,2019
+Turkmenistan,TKM,ECA,EECA,Less Developed,ANAR Primary,Male,98.9,99.7,98.1,99.1,99.8,98.3,,,,MICS6,2019
+Turkmenistan,TKM,ECA,EECA,Less Developed,ANAR Primary,Female,98.4,99.4,97.5,98.4,99.4,97.4,,,,MICS6,2019
+Turkmenistan,TKM,ECA,EECA,Less Developed,ANAR Primary,Urban,98.5,99.4,97.6,98.8,99.6,97.9,,,,MICS6,2019
+Turkmenistan,TKM,ECA,EECA,Less Developed,ANAR Primary,Rural,98.8,99.7,97.9,98.8,99.7,97.9,,,,MICS6,2019
+Tuvalu,TUV,EAP,EAP,Least Developed,ANAR Primary,Total,76.3,82,70.6,74.5,80.8,68.3,,,,MICS6,2019-2020
+Tuvalu,TUV,EAP,EAP,Least Developed,ANAR Primary,Male,79.7,87.4,72,78.2,87,69.5,,,,MICS6,2019-2020
+Tuvalu,TUV,EAP,EAP,Least Developed,ANAR Primary,Female,72.3,80.7,63.8,70.5,79.5,61.5,,,,MICS6,2019-2020
+Tuvalu,TUV,EAP,EAP,Least Developed,ANAR Primary,Urban,79.3,86.9,71.7,77.3,85.9,68.7,,,,MICS6,2019-2020
+Tuvalu,TUV,EAP,EAP,Least Developed,ANAR Primary,Rural,71.9,80.5,63.2,70.9,80.1,61.6,,,,MICS6,2019-2020
+Zimbabwe,ZWE,SSA,ESA,Less Developed,ANAR Primary,Total,90.3,91.2,89.3,90.3,91.2,89.3,90.1,93.2,87.1,MICS6,2019
+Zimbabwe,ZWE,SSA,ESA,Less Developed,ANAR Primary,Male,89.2,90.5,87.8,89.2,90.6,87.8,88.6,92.9,84.2,MICS6,2019
+Zimbabwe,ZWE,SSA,ESA,Less Developed,ANAR Primary,Female,91.4,92.7,90.2,91.4,92.7,90.1,92,96.1,87.9,MICS6,2019
+Zimbabwe,ZWE,SSA,ESA,Less Developed,ANAR Primary,Urban,92.8,94.2,91.3,93,94.5,91.5,90.1,96.5,83.8,MICS6,2019
+Zimbabwe,ZWE,SSA,ESA,Less Developed,ANAR Primary,Rural,89.4,90.5,88.2,89.3,90.5,88.1,90.1,93.6,86.7,MICS6,2019
