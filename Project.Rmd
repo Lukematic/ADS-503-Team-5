@@ -17,6 +17,7 @@ df3 <- read_excel('/Users/yhjnthn/Documents/USD_MS-ADS/ADS503/Database-on-educat
 df4 <- read_excel('/Users/yhjnthn/Documents/USD_MS-ADS/ADS503/Database-on-education-for-children-with-disabilities.xlsx', 4)
 df5 <- read_excel('/Users/yhjnthn/Documents/USD_MS-ADS/ADS503/Database-on-education-for-children-with-disabilities.xlsx', 5)
 df6 <- read_excel('/Users/yhjnthn/Documents/USD_MS-ADS/ADS503/Database-on-education-for-children-with-disabilities.xlsx', 6)
+df7 <- read_excel('/Users/yhjnthn/Documents/USD_MS-ADS/ADS503/Database-on-education-for-children-with-disabilities.xlsx', 7)
 df8 <- read_excel('/Users/yhjnthn/Documents/USD_MS-ADS/ADS503/Database-on-education-for-children-with-disabilities.xlsx', 8)
 df9 <- read_excel('/Users/yhjnthn/Documents/USD_MS-ADS/ADS503/Database-on-education-for-children-with-disabilities.xlsx', 9)
 head(df1)
