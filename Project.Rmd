@@ -52,5 +52,24 @@ colnames(df8)[15:16] <- c("Children_with_functional_difficulties_upper_limit", "
 colnames(df9)[9:10] <- c("Total_Upper_Limit", "Total_Lower_Limit")
 colnames(df9)[12:13] <- c("Children_without_functional_difficulties_upper_limit", "Children_without_functional_difficulties_lower_limit")
 colnames(df9)[15:16] <- c("Children_with_functional_difficulties_upper_limit", "Children_with_functional_difficulties_lower_limit")
-
 ```
+## Removal of the unnecessary subcategories (row 1)
+```{r Row removal}
+df1_clean <- as.data.frame(df1[-1,])
+df2_clean <- as.data.frame(df2[-1,])
+df3_clean <- as.data.frame(df3[-1,])
+df4_clean <- as.data.frame(df4[-1,])
+df5_clean <- as.data.frame(df5[-1,])
+df6_clean <- as.data.frame(df6[-1,])
+df7_clean <- as.data.frame(df7[-1,])
+df8_clean <- as.data.frame(df8[-1,])
+df9_clean <- as.data.frame(df9[-1,])
+```
+After removing the unneeded subcategory row, the columns are combined into one for convenience.
+```{r combining}
+df_comb <- cbind(df1_clean[,1:16], df2_clean[,6:16], df3_clean[,6:16],
+                 df4_clean[,6:16], df5_clean[,6:16], df6_clean[,6:16],
+                 df7_clean[,6:16], df8_clean[,6:16], df9_clean[,6:18])
+dim(df_comb)
+```
+The dataset are now combined as a single dataframe df_comb.
