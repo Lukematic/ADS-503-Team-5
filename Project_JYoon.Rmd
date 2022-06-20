@@ -156,7 +156,7 @@ The values are now all numeric, except the levels column, and there are NA value
 ```{r filling in NA numeric values & excluding highly correlated variables - Pre-processing}
 library(caret)
 df_imp <- preProcess(df_c[,2:136], "knnImpute")
-df_imputed <- predict(df_imp, df_c)
+df_imputed <- predict(df_imp, df_c[,2:136])
 summary(df_imputed) # Now, the NA are filled in with values computed with KNN.
 tooHigh <- findCorrelation(cor(df_imputed[,2:136]), 0.7)
 df_filtered <- df_imputed[,-tooHigh]
