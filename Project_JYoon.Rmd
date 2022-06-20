@@ -166,7 +166,7 @@ summary(level_final)
 df_final <- cbind(level_final, df_filtered)
 head(df_final)
 ```
-```{r data split}
+```{r data split & Naive Bayes model}
 df_split <- sort(sample(nrow(df_final), nrow(df_final)*0.8))
 df_train <- df_final[df_split,]
 df_test <- df_final[-df_split,]
