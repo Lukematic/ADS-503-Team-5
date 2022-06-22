@@ -1,0 +1,192 @@
+---
+title: "ADS503_Team3"
+author: "Jonathan Yoon"
+date: "6/5/2022"
+output: html_document
+---
+## 1. Importing data as data frames
+
+There are 9 different worksheets in the original data.
+Each worksheet is imported as separate data frames.
+```{r import}
+library(readxl)
+df1 <- read_excel('/Users/yhjnthn/Documents/USD_MS-ADS/ADS503/Database-on-education-for-children-with-disabilities.xlsx', 1)
+df2 <- read_excel('/Users/yhjnthn/Documents/USD_MS-ADS/ADS503/Database-on-education-for-children-with-disabilities.xlsx', 2)
+df3 <- read_excel('/Users/yhjnthn/Documents/USD_MS-ADS/ADS503/Database-on-education-for-children-with-disabilities.xlsx', 3)
+df4 <- read_excel('/Users/yhjnthn/Documents/USD_MS-ADS/ADS503/Database-on-education-for-children-with-disabilities.xlsx', 4)
+df5 <- read_excel('/Users/yhjnthn/Documents/USD_MS-ADS/ADS503/Database-on-education-for-children-with-disabilities.xlsx', 5)
+df6 <- read_excel('/Users/yhjnthn/Documents/USD_MS-ADS/ADS503/Database-on-education-for-children-with-disabilities.xlsx', 6)
+df7 <- read_excel('/Users/yhjnthn/Documents/USD_MS-ADS/ADS503/Database-on-education-for-children-with-disabilities.xlsx', 7)
+df8 <- read_excel('/Users/yhjnthn/Documents/USD_MS-ADS/ADS503/Database-on-education-for-children-with-disabilities.xlsx', 8)
+df9 <- read_excel('/Users/yhjnthn/Documents/USD_MS-ADS/ADS503/Database-on-education-for-children-with-disabilities.xlsx', 9)
+head(df1)
+```
+Column names for upper & lower limits for Total, Children without functional disabilities, and Children with functional disabilities
+do not have the correct names. The names of these columns are assigned by following:
+```{r column assignment}
+colnames(df1)[9:10] <- c("Total_Upper_Limit", "Total_Lower_Limit")
+colnames(df1)[12:13] <- c("Children_without_functional_difficulties_upper_limit", "Children_without_functional_difficulties_lower_limit")
+colnames(df1)[15:16] <- c("Children_with_functional_difficulties_upper_limit", "Children_with_functional_difficulties_lower_limit")
+colnames(df2)[9:10] <- c("Total_Upper_Limit", "Total_Lower_Limit")
+colnames(df2)[12:13] <- c("Children_without_functional_difficulties_upper_limit", "Children_without_functional_difficulties_lower_limit")
+colnames(df2)[15:16] <- c("Children_with_functional_difficulties_upper_limit", "Children_with_functional_difficulties_lower_limit")
+colnames(df3)[9:10] <- c("Total_Upper_Limit", "Total_Lower_Limit")
+colnames(df3)[12:13] <- c("Children_without_functional_difficulties_upper_limit", "Children_without_functional_difficulties_lower_limit")
+colnames(df3)[15:16] <- c("Children_with_functional_difficulties_upper_limit", "Children_with_functional_difficulties_lower_limit")
+colnames(df4)[9:10] <- c("Total_Upper_Limit", "Total_Lower_Limit")
+colnames(df4)[12:13] <- c("Children_without_functional_difficulties_upper_limit", "Children_without_functional_difficulties_lower_limit")
+colnames(df4)[15:16] <- c("Children_with_functional_difficulties_upper_limit", "Children_with_functional_difficulties_lower_limit")
+colnames(df5)[9:10] <- c("Total_Upper_Limit", "Total_Lower_Limit")
+colnames(df5)[12:13] <- c("Children_without_functional_difficulties_upper_limit", "Children_without_functional_difficulties_lower_limit")
+colnames(df5)[15:16] <- c("Children_with_functional_difficulties_upper_limit", "Children_with_functional_difficulties_lower_limit")
+colnames(df6)[9:10] <- c("Total_Upper_Limit", "Total_Lower_Limit")
+colnames(df6)[12:13] <- c("Children_without_functional_difficulties_upper_limit", "Children_without_functional_difficulties_lower_limit")
+colnames(df6)[15:16] <- c("Children_with_functional_difficulties_upper_limit", "Children_with_functional_difficulties_lower_limit")
+colnames(df7)[9:10] <- c("Total_Upper_Limit", "Total_Lower_Limit")
+colnames(df7)[12:13] <- c("Children_without_functional_difficulties_upper_limit", "Children_without_functional_difficulties_lower_limit")
+colnames(df7)[15:16] <- c("Children_with_functional_difficulties_upper_limit", "Children_with_functional_difficulties_lower_limit")
+colnames(df8)[9:10] <- c("Total_Upper_Limit", "Total_Lower_Limit")
+colnames(df8)[12:13] <- c("Children_without_functional_difficulties_upper_limit", "Children_without_functional_difficulties_lower_limit")
+colnames(df8)[15:16] <- c("Children_with_functional_difficulties_upper_limit", "Children_with_functional_difficulties_lower_limit")
+colnames(df9)[9:10] <- c("Total_Upper_Limit", "Total_Lower_Limit")
+colnames(df9)[12:13] <- c("Children_without_functional_difficulties_upper_limit", "Children_without_functional_difficulties_lower_limit")
+colnames(df9)[15:16] <- c("Children_with_functional_difficulties_upper_limit", "Children_with_functional_difficulties_lower_limit")
+```
+## Removal of the unnecessary subcategories (row 1)
+```{r Row removal}
+df1_clean <- as.data.frame(df1[-1,])
+df2_clean <- as.data.frame(df2[-1,])
+df3_clean <- as.data.frame(df3[-1,])
+df4_clean <- as.data.frame(df4[-1,])
+df5_clean <- as.data.frame(df5[-1,])
+df6_clean <- as.data.frame(df6[-1,])
+df7_clean <- as.data.frame(df7[-1,])
+df8_clean <- as.data.frame(df8[-1,])
+df9_clean <- as.data.frame(df9[-1,])
+```
+After removing the unneeded subcategory row, the columns are combined into one for convenience.
+```{r combining}
+df_comb <- cbind(df1_clean[,1:16], df2_clean[,6:16], df3_clean[,6:16],
+                 df4_clean[,6:16], df5_clean[,6:16], df6_clean[,6:16],
+                 df7_clean[,6:16], df8_clean[,6:16], df9_clean[,6:18])
+dim(df_comb)
+df_comb
+```
+The dataset are now combined as a single dataframe df_comb.
+```{r subsetting}
+dfc <- df_comb[,c(5,8,11,14,19,22,25,30,33,36,41,44,47,52,55,58,63,66,69,74,77,80,85,88,91,96,99,102)] # Excluding explanatory and limit values
+total <- dfc[c(1,6,11,16,21,26,31,36,41,46,51,56,61,66,71,76,81,86,91,96,
+               101,106,111,116,121,126,131,136,141,146,151,156),] # subsetting total values
+male <- dfc[c(2,7,12,17,22,27,32,37,42,47,52,57,62,67,72,77,82,87,92,97,
+              102,107,112,117,122,127,132,137,142,147,152,157),] # subsetting male values
+female <- dfc[c(3,8,13,18,23,28,33,38,43,48,53,58,63,68,73,78,83,88,93,98,
+                103,108,113,118,123,128,133,138,143,148,153,158),] # subsetting female values
+urban <- dfc[c(4,9,14,19,24,29,34,39,44,49,54,59,64,69,74,79,84,89,94,99,
+               104,109,114,119,124,129,134,139,144,149,154,159),] # subsetting urban values
+rural <- dfc[c(5,10,15,20,25,30,35,40,45,50,55,60,65,70,75,80,85,90,95,
+               100,105,110,115,120,125,130,135,140,145,150,155,160),] # subsetting rural values
+```
+The dataset has not been separated into 5 different subsets.
+```{r naming columns}
+colnames(total) <- c("level","primaryANAR_total","primaryANAR_nodiff_total","primaryANAR_diff_total",
+                     "lowsecondaryANAR_total","lowsecondaryANAR_nodiff_total","lowsecondaryANAR_diff_total",
+                     "uppsecondaryANAR_total","uppsecondaryANAR_nodiff_total","uppsecondaryANAR_diff_total",
+                     "primaryOOS_total","primaryOOS_nodiff_total","primaryOOS_diff_total",
+                     "lowsecondaryOOS_total","lowsecondaryOOS_nodiff_total","lowsecondaryOOS_diff_total",
+                     "uppsecondaryOOS_total","uppsecondaryOOS_nodiff_total","uppsecondaryOOS_diff_total",
+                     "primarycomp_total","primarycomp_nodiff_total","primarycomp_diff_total",
+                     "reading_total","reading_nodiff_total","reading_diff_total",
+                     "numeric_total","numeric_nodiff_total","numeric_diff_total")
+colnames(male) <- c("level","primaryANAR_male","primaryANAR_nodiff_male","primaryANAR_diff_male",
+                    "lowsecondaryANAR_male","lowsecondaryANAR_nodiff_male","lowsecondaryANAR_diff_male",
+                    "uppsecondaryANAR_male","uppsecondaryANAR_nodiff_male","uppsecondaryANAR_diff_male",
+                    "primaryOOS_male","primaryOOS_nodiff_male","primaryOOS_diff_male",
+                    "lowsecondaryOOS_male","lowsecondaryOOS_nodiff_male","lowsecondaryOOS_diff_male",
+                    "uppsecondaryOOS_male","uppsecondaryOOS_nodiff_male","uppsecondaryOOS_diff_male",
+                    "primarycomp_male","primarycomp_nodiff_male","primarycomp_diff_male",
+                    "reading_male","reading_nodiff_male","reading_diff_male",
+                    "numeric_male","numeric_nodiff_male","numeric_diff_male")
+colnames(female) <- c("level","primaryANAR_female","primaryANAR_nodiff_female","primaryANAR_diff_female",
+                      "lowsecondaryANAR_female","lowsecondaryANAR_nodiff_female","lowsecondaryANAR_diff_female",
+                      "uppsecondaryANAR_female","uppsecondaryANAR_nodiff_female","uppsecondaryANAR_diff_female",
+                      "primaryOOS_female","primaryOOS_nodiff_female","primaryOOS_diff_female",
+                      "lowsecondaryOOS_female","lowsecondaryOOS_nodiff_female","lowsecondaryOOS_diff_female",
+                      "uppsecondaryOOS_female","uppsecondaryOOS_nodiff_female","uppsecondaryOOS_diff_female",
+                      "primarycomp_female","primarycomp_nodiff_female","primarycomp_diff_female",
+                      "reading_female","reading_nodiff_female","reading_diff_female",
+                      "numeric_female","numeric_nodiff_female","numeric_diff_female")
+colnames(urban) <- c("level","primaryANAR_urban","primaryANAR_nodiff_urban","primaryANAR_diff_urban",
+                     "lowsecondaryANAR_urban","lowsecondaryANAR_nodiff_urban","lowsecondaryANAR_diff_urban",
+                     "uppsecondaryANAR_urban","uppsecondaryANAR_nodiff_urban","uppsecondaryANAR_diff_urban",
+                     "primaryOOS_urban","primaryOOS_nodiff_urban","primaryOOS_diff_urban",
+                     "lowsecondaryOOS_urban","lowsecondaryOOS_nodiff_urban","lowsecondaryOOS_diff_urban",
+                     "uppsecondaryOOS_urban","uppsecondaryOOS_nodiff_urban","uppsecondaryOOS_diff_urban",
+                     "primarycomp_urban","primarycomp_nodiff_urban","primarycomp_diff_urban",
+                     "reading_urban","reading_nodiff_urban","reading_diff_urban",
+                     "numeric_urban","numeric_nodiff_urban","numeric_diff_urban")
+colnames(rural) <- c("level","primaryANAR_rural","primaryANAR_nodiff_rural","primaryANAR_diff_rural",
+                     "lowsecondaryANAR_rural","lowsecondaryANAR_nodiff_rural","lowsecondaryANAR_diff_rural",
+                     "uppsecondaryANAR_rural","uppsecondaryANAR_nodiff_rural","uppsecondaryANAR_diff_rural",
+                     "primaryOOS_rural","primaryOOS_nodiff_rural","primaryOOS_diff_rural",
+                     "lowsecondaryOOS_rural","lowsecondaryOOS_nodiff_rural","lowsecondaryOOS_diff_rural",
+                     "uppsecondaryOOS_rural","uppsecondaryOOS_nodiff_rural","uppsecondaryOOS_diff_rural",
+                     "primarycomp_rural","primarycomp_nodiff_rural","primarycomp_diff_rural",
+                     "reading_rural","reading_nodiff_rural","reading_diff_rural",
+                     "numeric_rural","numeric_nodiff_rural","numeric_diff_rural")
+df_c <- cbind(total,male[,2:28],female[,2:28],urban[,2:28],rural[,2:28])
+head(df_c)
+dim(df_c)
+```
+Now, the columns have been re-named.
+```{r filling in NA and Not Specified values in level column}
+df_c[,1]
+# Among the 32 values, one NA value and on Not Specified (26th row) value were noted.
+library(zoo)
+df_c[,1] <- na.fill(df_c[,1], "Less Developed")
+df_c[26,1] <- "More Developed"
+summary(df_c)
+```
+The levels have now been filled in, but the values are all in characters, not numeric.
+```{r changing the numeric values to appropriate dataset}
+df_c[,2:136] <- lapply(df_c[,2:136], FUN = function(y){as.numeric(y)})
+summary(df_c)
+```
+The values are now all numeric, except the levels column, and there are NA values in these numeric variables.
+```{r filling in NA numeric values & excluding highly correlated variables - Pre-processing}
+library(caret)
+df_imp <- preProcess(df_c[,2:136], "knnImpute")
+df_imputed <- predict(df_imp, df_c)
+summary(df_imputed) # Now, the NA are filled in with values computed with KNN.
+tooHigh <- findCorrelation(cor(df_imputed[,2:136]), 0.8)
+df_filtered <- df_imputed[,-tooHigh]
+level_final <- as.factor(make.names(df_c[,1]))
+dim(df_filtered)
+summary(level_final)
+df_final <- cbind(level_final, df_filtered)
+head(df_final)
+```
+```{r data split & Naïve Bayes Model}
+df_split <- sort(sample(nrow(df_final), nrow(df_final)*0.8))
+df_train <- df_final[df_split,]
+df_test <- df_final[-df_split,]
+library(naivebayes)
+df_nb <- naive_bayes(df_train[,2:14], df_train[,1])
+df_nb_pred <- predict(df_nb, df_test[,2:14])
+nb_result <- confusionMatrix(df_nb_pred, df_test[,1])
+nb_result
+```
+```{r K-Nearest Neighbor}
+df_knn <- train(x = df_train[,2:14], y = df_train[,1],
+                method = "knn", tuneLength = 20)
+df_knn_pred <- predict(df_knn, df_test[,2:14])
+df_knn_result <- confusionMatrix(df_knn_pred, df_test$level_final)
+df_knn_result
+```
+
+```{r neural network}
+df_nnet <- nnet(level_final~., df_train, size=5, decay=0.1)
+df_nnet_pred <- predict(df_nnet, df_test[,2:14], type = "class")
+df_nnet_pred <- as.factor(df_nnet_pred)
+df_nnet_result <- confusionMatrix(df_nnet_pred, df_test[,1])
+df_nnet_result
+```
