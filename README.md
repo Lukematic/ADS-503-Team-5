@@ -20,9 +20,9 @@ the data is sourced from Unicef https://data.unicef.org/resources/education-for-
 # Authors and Collaborators
 - Luke Awino
 
--Jonathan Yoon
+- Jonathan Yoon
 
--Michael Nguyen
+- Michael Nguyen
 
 
 
